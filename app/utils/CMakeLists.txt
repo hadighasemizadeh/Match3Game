@@ -1,0 +1,5 @@
+SET (SRCs   src/Utils.cpp)
+
+ADD_LIBRARY(utils   ${SRCs})
+
+TARGET_INCLUDE_DIRECTORIES(utils PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
